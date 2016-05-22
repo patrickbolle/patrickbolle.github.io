@@ -17,6 +17,8 @@ Send me a message and I&apos;ll get back to you as soon as I can.
 
 
   
+  
+  
     Name
     
   
@@ -39,6 +41,8 @@ Send me a message and I&apos;ll get back to you as soon as I can.
 
 
   
+  
+  
     Name
     
   
@@ -52,13 +56,15 @@ Send me a message and I&apos;ll get back to you as soon as I can.
   
    Send
   Cancel">
-<meta property="og:updated_time" content="2016-05-20T01:00:07.888Z">
+<meta property="og:updated_time" content="2016-05-22T18:20:06.488Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Contact">
 <meta name="twitter:description" content="Let&apos;s work together
 Send me a message and I&apos;ll get back to you as soon as I can.
 
 
+  
+  
   
     Name
     
@@ -183,18 +189,20 @@ Send me a message and I&apos;ll get back to you as soon as I can.
 	    <h2>Let's work together</h2>
 <p>Send me a message and I'll get back to you as soon as I can.</p>
 <!-- BEGIN FORM-->
-<form action="#" role="form">
+<form action="https://formspree.io/contact@patrickbollenbach.com" method="POST" role="form">
+  <input type="hidden" name="_subject" value="New Email!">
+  <input type="text" name="_gotcha" style="display:none">
   <div class="form-group">
     <label for="contacts-name">Name</label>
-    <input type="text" class="form-control" id="contacts-name">
+    <input type="text" name="name" class="form-control" id="contacts-name">
   </div>
   <div class="form-group">
     <label for="contacts-email">Email</label>
-    <input type="email" class="form-control" id="contacts-email">
+    <input type="email" name="_replyto" class="form-control" id="contacts-email">
   </div>
   <div class="form-group">
     <label for="contacts-message">Message</label>
-    <textarea class="form-control" rows="5" id="contacts-message"></textarea>
+    <textarea class="form-control" name="message" rows="5" id="contacts-message"></textarea>
   </div>
   <button type="submit" class="btn btn-primary"><i class="icon-ok"></i> Send</button>
   <button type="button" class="btn btn-default">Cancel</button>
