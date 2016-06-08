@@ -34,5 +34,24 @@ nav {
   padding-bottom:75px;
 }
 .hero.is-dark {
+  background-color: white;
   margin-bottom: 25px;
+}
+
+.green {
+  color: #67BC3B !important;
+  display:inline;
+}
+
+.hero.is-index {
+  background-image: url(landing.jpg) center;
+  margin-bottom: 25px;
+}
+
+.heroImg {
+  margin-top: -45px;
+}
+
+.heroText {
+  padding-bottom: 35px;
 }
