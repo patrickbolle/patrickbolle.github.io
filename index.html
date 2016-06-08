@@ -9,39 +9,106 @@
     <meta name="author" content="">
     <link rel="icon" href="favicon/favicon.ico">
 
-    <title>Blog Template for Bulma</title>
+    <title>Patrick Bollenbach</title>
 
-    <!-- Bootstrap core CSS -->
+    <!-- Bulma + FontAwesome core CSS -->
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,400italic,700' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="/bulma.css">
+    <link rel="stylesheet" href="/styles.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
 </head>
 
 <body>
-    <div class="hero-head">
-    <header class="nav">
-      <div class="container">
-        <div class="nav-left">
-          <a class="nav-item">
-            Patrick Bollenbach
-          </a>
-        </div>
-        <span class="nav-toggle">
-          <span></span>
-          <span></span>
-          <span></span>
-        </span>
-        <div class="nav-right nav-menu">
-          
-              <a class="nav-item" href="/">Home</a>
-          
-              <a class="nav-item" href="/blog">Blog</a>
-          
-              <a class="nav-item" href="/archives">Archives</a>
-          
-        </div>
+      <nav class="nav">
+    <div class="container">
+      <div class="nav-left">
+        <a class="nav-item" href="/">
+          <h4 class="subtitle is-4">patrick bollenbach</h4>
+        </a>
       </div>
-    </header>
-  </div>
 
-    
+      <span class="nav-toggle" id="nav-toggle">
+        <span></span>
+        <span></span>
+        <span></span>
+      </span>
+
+      <div class="nav-right nav-menu" id="nav-menu">
+        
+            <a class="nav-item" href="/">Home</a>
+        
+            <a class="nav-item" href="/archives">Blog</a>
+        
+            <a class="nav-item" href="/about">About</a>
+        
+            <a class="nav-item" href="/contact">Contact Me</a>
+        
+      </div>
+    </div>
+  </nav>
+
+    <div class="container-fluid">
+        <section class="hero is-dark is-large">
+  <div class="hero-body">
+    <div class="container">
+      <h1 class="title is-2">
+        Make the most of Shopify
+      </h1>
+      <h2 class="subtitle is-3">
+        Professional Shopify setup and theme development to your specification.
+      </h2>
+    </div>
+  </div>
+</section>
+
+<section class="section has-text-centered	">
+  <p>
+    <h4 class="subtitle is-3">Hey!</h4>
+    <h4 class="subtitle is-4">
+    I'm Patrick, a Canadian full stack freelance web developer. <br>
+    I currently specialize in Shopify development, getting your e-commerce site online and selling quickly with style.<br>
+    I'm available for freelancing gigs or remote jobs, and I'd love to chat with you about working on your project.
+    Contact me and let's get started!
+    </h4>
+  </p>
+</section>
+
+    </div>
+    <script type="text/javascript">
+    document.getElementById("nav-toggle").addEventListener("click", toggleNav);
+    function toggleNav() {
+            var nav = document.getElementById("nav-menu");
+            var className = nav.getAttribute("class");
+            if(className == "nav-right nav-menu") {
+                nav.className = "nav-right nav-menu is-active";
+            } else {
+                nav.className = "nav-right nav-menu";
+            }
+    }
+</script>
+
+    <footer class="footer">
+  <div class="container">
+    <hr>
+    <div class="content has-text-centered">
+      <p>
+        <strong>Built</strong> by <a href="http://patrickbollenbach.com">Patrick Bollenbach</a>.
+      </p>
+      <p>
+        <a class="icon" href="https://github.com/patrickbolle">
+          <i class="fa fa-github"></i>
+        </a>
+        <a class="icon" href="https://twitter.com/patrickbolle">
+          <i class="fa fa-twitter"></i>
+        </a>
+        <a class="icon" href="https://linkedin.com/patrickbolle">
+          <i class="fa fa-linkedin"></i>
+        </a>
+      </p>
+    </div>
+  </div>
+</footer>
+
 </body>
 </html>
