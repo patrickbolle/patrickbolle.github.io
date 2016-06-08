@@ -55,3 +55,7 @@ nav {
 .heroText {
   padding-bottom: 35px;
 }
+
+.container-fluid {
+  padding-top: 15px;
+}
