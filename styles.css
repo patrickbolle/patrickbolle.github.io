@@ -59,3 +59,16 @@ nav {
 .container-fluid {
   padding-top: 15px;
 }
+
+.tile {
+  min-height: min-content;
+}
+
+.blog-post {
+  text-decoration: none !important;
+  padding-bottom: 15px;
+}
+
+.content a {
+  border-bottom: 0px;
+}
