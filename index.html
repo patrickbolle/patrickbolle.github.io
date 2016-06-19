@@ -1,0 +1,155 @@
+<html>
+<!-- Head tag -->
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="favicon/favicon.ico">
+
+    <title>Patrick Bollenbach</title>
+
+    <!-- Bulma + FontAwesome core CSS -->
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,400italic,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="/bulma.css">
+    <link rel="stylesheet" href="/styles.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+      <nav class="nav">
+    <div class="container">
+      <div class="nav-left">
+        <a class="nav-item" href="/">
+          <h4 class="subtitle is-4">patrick bollenbach</h4>
+        </a>
+      </div>
+
+      <span class="nav-toggle" id="nav-toggle">
+        <span></span>
+        <span></span>
+        <span></span>
+      </span>
+
+      <div class="nav-right nav-menu" id="nav-menu">
+        
+            <a class="nav-item" href="/">Home</a>
+        
+            <a class="nav-item" href="/projects">Projects</a>
+        
+            <a class="nav-item" href="/about">About</a>
+        
+            <a class="nav-item" href="/contact">Contact</a>
+        
+            <a class="nav-item" href="/blog">Blog</a>
+        
+      </div>
+    </div>
+  </nav>
+
+    <div class="container-fluid">
+        <section class="hero is-index is-medium">
+  <div class="hero-body">
+    <div class="container">
+      <div class="columns">
+        <div class="column is-three-quarters">
+          <h1 class="title is-2">
+            Make the most of <div class="green">Shopify.</div>
+          </h1>
+          <h2 class="subtitle is-4 heroText">
+            Professional Shopify setup and theme development to your specification.
+          </h2>
+        </div>
+        <div class="column is-one-quarter has-text-centered	">
+          <img src="download.png" alt="" class="heroImg"/>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<hr>
+
+<div class="container">
+  <section class="section has-text-left	">
+    <p>
+      <h4 class="subtitle is-4">
+      I'm Patrick, a Canadian full stack freelance web developer. <br>
+      I currently specialize in Shopify development, getting your e-commerce site up and selling quickly with style.<br>
+      I'm available for freelancing gigs or remote jobs, and I'd love to chat with you about working on your project.
+      <a href="/contact">Contact me</a> and let's get started!
+      </h4>
+    </p>
+  </section>
+  <section class="section has-text-left">
+    <h4 class="title is-4">Recent Posts <small></small></h4>
+    <div class="columns">
+      
+        <div class="column">
+          <div class="card is-fullwidth">
+  <header class="card-header">
+    <p class="card-header-title">
+      <a href="/beginner-react/">
+          Free Tutorials And Tips For Learning React
+      </a>
+    </p>
+  </header>
+  <div class="card-content">
+    <div class="content has-text-left	">
+      (3 minute read)
+      <!-- Content -->
+      <p>After learning Meteor with Meteor’s custom templating library, Blaze, I sought out to learn React - the internet’s newest hype project.<br><a href="https://facebook.github.io/react/">React</a> is Facebook’s child, acting as the V within the MVC context. From my experience so far, writing applications with the help of React has been incredibly fast and easy once you get over the scary starting phase.</p>
+<p>Now that I’ve been developing with React for a couple of months, I thought I would highlight some of the resources I found to help me understand how/why React works the way that it does.<br>
+    </div>
+  </div>
+  <footer class="card-footer">
+    <a href="/beginner-react/" class="card-footer-item">Read More... </a>
+  </footer>
+</div>
+
+        </div>
+      
+    </div>
+  </section>
+</div>
+
+    </div>
+    <script type="text/javascript">
+    document.getElementById("nav-toggle").addEventListener("click", toggleNav);
+    function toggleNav() {
+            var nav = document.getElementById("nav-menu");
+            var className = nav.getAttribute("class");
+            if(className == "nav-right nav-menu") {
+                nav.className = "nav-right nav-menu is-active";
+            } else {
+                nav.className = "nav-right nav-menu";
+            }
+    }
+</script>
+
+    <footer class="footer">
+  <div class="container">
+    <hr>
+    <div class="content has-text-centered">
+      <p>
+        <strong>Built</strong> by <a href="http://patrickbollenbach.com">Patrick Bollenbach</a>.
+      </p>
+      <p>
+        <a class="icon" href="https://github.com/patrickbolle">
+          <i class="fa fa-github"></i>
+        </a>
+        <a class="icon" href="https://twitter.com/patrickbolle">
+          <i class="fa fa-twitter"></i>
+        </a>
+        <a class="icon" href="https://linkedin.com/patrickbolle">
+          <i class="fa fa-linkedin"></i>
+        </a>
+      </p>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
