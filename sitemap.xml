@@ -2,22 +2,22 @@
 <sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
     <sitemap>
-        <loc>http://patrickbollenbach.com/post-sitemap.xml</loc>
+        <loc>patrickbollenbach.com/post-sitemap.xml</loc>
         <lastmod>2016-06-19T02:05:05.539Z</lastmod>
     </sitemap>
 
     <sitemap>
-        <loc>http://patrickbollenbach.com/page-sitemap.xml</loc>
+        <loc>patrickbollenbach.com/page-sitemap.xml</loc>
         <lastmod>2016-06-09T16:50:38.050Z</lastmod>
     </sitemap>
 
     <sitemap>
-        <loc>http://patrickbollenbach.com/category-sitemap.xml</loc>
+        <loc>patrickbollenbach.com/category-sitemap.xml</loc>
         <lastmod>2016-06-19T02:05:05.539Z</lastmod>
     </sitemap>
 
     <sitemap>
-        <loc>http://patrickbollenbach.com/tag-sitemap.xml</loc>
+        <loc>patrickbollenbach.com/tag-sitemap.xml</loc>
         <lastmod>2016-06-19T02:05:05.539Z</lastmod>
     </sitemap>
 
