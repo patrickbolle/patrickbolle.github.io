@@ -11,11 +11,10 @@
     <link rel="icon" href="favicon/favicon.ico">
     <title>Patrick Bollenbach - Freelance Web Developer</title>
     <!-- Bulma + FontAwesome core CSS -->
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Droid+Sans:400,700|Droid+Serif:400,700" rel="stylesheet">
     <!-- Slider -->
     <link rel="stylesheet" href="/bulma.css">
-    <link rel="stylesheet" href="/styles.css">
     <script>
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
       (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -26,63 +25,47 @@
       ga('send', 'pageview');
 
     </script>
+    <link rel="stylesheet" href="/styles.css">
 </head>
 
 <body>
-      <nav class="nav">
+      <!-- Hero header: will stick at the top -->
+<div class="hero-head">
+  <header class="nav">
     <div class="container">
       <div class="nav-left">
-        <a class="nav-item" href="/">
-          <h4 class="subtitle is-4">patrick bollenbach</h4>
+        <a class="nav-item">
+          <h3 class="title is-3">patrick bollenbach <small></small></h3>
         </a>
       </div>
-
-      <span class="nav-toggle" id="nav-toggle">
+      <span class="nav-toggle">
         <span></span>
         <span></span>
         <span></span>
       </span>
-
-      <div class="nav-right nav-menu" id="nav-menu">
-        
-            <a class="nav-item" href="/">Home</a>
-        
-            <a class="nav-item" href="/projects">Projects</a>
-        
-            <a class="nav-item" href="/about">About</a>
-        
-            <a class="nav-item" href="/contact">Contact</a>
-        
-            <a class="nav-item" href="/blog">Blog</a>
-        
+      <div class="nav-right nav-menu">
+        <a href="/about" class="nav-item">
+          About
+        </a>
+        <a href="/projects" class="nav-item">
+          Work
+        </a>
+        <a href="/blog" class="nav-item">
+          Blog
+        </a>
       </div>
     </div>
-  </nav>
+  </header>
+</div>
 
-    <div class="container-fluid">
-        <div class="container">
-    <!-- Title -->
-    <div class="container">
-      <h1 class="title is-3">
-        Contact Me
-        <hr>
-      </h1>
-    </div>
-    <div class="columns">
-      
-        <div class="column">
-      
+      <div class="container">
         <div class="container content">
-          <!-- Content -->
-          <h3 class="subtitle is-3">Let's work together</h3><h4 class="subtitle is-5">Send me a message and I'll get back to you as soon as I can.</h4><form action="https://formspree.io/contact@patrickbollenbach.com" method="POST" role="form"><input type="hidden" name="_subject" value="New email on patrickbollenbach.com"> <input type="text" name="_format" value="plain" style="display:none"> <input type="hidden" name="_next" value="http://patrickbollenbach.com/thanks"> <input type="text" name="_gotcha" style="display:none"><label class="label">Name</label><p class="control has-icon"><input class="input is-medium" type="text" placeholder="Full name" name="name"> <i class="fa fa-user"></i></p><label class="label">Email</label><p class="control has-icon"><input class="input is-medium" type="text" name="_replyto" placeholder="Email address"> <i class="fa fa-envelope"></i></p><label class="label">Message</label><p class="control has-icon"><textarea class="textarea is-medium" name="message" placeholder="Write your message here"></textarea><i class="fa fa-pencil"></i></p><p class="control"><button class="button is-primary">Submit</button></p></form>
-        </div>
-      </div>
-      
-    </div>
+  <!-- Content -->
+  <section class="section has-text-centered"><h3 class="subtitle is-3">Let's work together</h3><h4 class="subtitle is-5">Send me a message and I'll get back to you as soon as I can.</h4><form action="https://formspree.io/contact@patrickbollenbach.com" method="POST" role="form" class="contactForm"><input type="hidden" name="_subject" value="New email on patrickbollenbach.com"> <input type="text" name="_format" value="plain" style="display:none"> <input type="hidden" name="_next" value="http://patrickbollenbach.com/thanks"> <input type="text" name="_gotcha" style="display:none"><label class="label">Name</label><p class="control has-icon"><input class="input is-medium" type="text" placeholder="Full name" name="name"> <i class="fa fa-user"></i></p><label class="label">Email</label><p class="control has-icon"><input class="input is-medium" type="text" name="_replyto" placeholder="Email address"> <i class="fa fa-envelope"></i></p><label class="label">Message</label><p class="control has-icon"><textarea class="textarea is-medium" name="message" placeholder="Write your message here"></textarea><i class="fa fa-pencil"></i></p><p class="control"><button class="button is-large">Submit</button></p></form></section>
 </div>
 
 
-    </div>
+      </div>
     <script type="text/javascript">
     document.getElementById("nav-toggle").addEventListener("click", toggleNav);
     function toggleNav() {
@@ -95,27 +78,6 @@
             }
     }
 </script>
-
-    <footer class="footer">
-  <div class="container">
-    <div class="content has-text-centered white">
-      <p>
-        Built by Patrick Bollenbach
-      </p>
-      <p class="white">
-        <a class="icon" href="https://github.com/patrickbolle">
-          <i class="fa fa-github"></i>
-        </a>
-        <a class="icon" href="https://twitter.com/patrickbolle">
-          <i class="fa fa-twitter"></i>
-        </a>
-        <a class="icon" href="https://linkedin.com/patrickbolle">
-          <i class="fa fa-linkedin"></i>
-        </a>
-      </p>
-    </div>
-  </div>
-</footer>
 
 </body>
 </html>

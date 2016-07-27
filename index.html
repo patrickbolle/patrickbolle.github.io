@@ -11,11 +11,10 @@
     <link rel="icon" href="favicon/favicon.ico">
     <title>Patrick Bollenbach - Freelance Web Developer</title>
     <!-- Bulma + FontAwesome core CSS -->
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Droid+Sans:400,700|Droid+Serif:400,700" rel="stylesheet">
     <!-- Slider -->
     <link rel="stylesheet" href="/bulma.css">
-    <link rel="stylesheet" href="/styles.css">
     <script>
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
       (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -26,222 +25,57 @@
       ga('send', 'pageview');
 
     </script>
+    <link rel="stylesheet" href="/styles.css">
 </head>
 
 <body>
-      <nav class="nav">
+      <!-- Hero header: will stick at the top -->
+<div class="hero-head">
+  <header class="nav">
     <div class="container">
       <div class="nav-left">
-        <a class="nav-item" href="/">
-          <h4 class="subtitle is-4">patrick bollenbach</h4>
+        <a class="nav-item">
+          <h3 class="title is-3">patrick bollenbach <small></small></h3>
         </a>
       </div>
-
-      <span class="nav-toggle" id="nav-toggle">
+      <span class="nav-toggle">
         <span></span>
         <span></span>
         <span></span>
       </span>
-
-      <div class="nav-right nav-menu" id="nav-menu">
-        
-            <a class="nav-item" href="/">Home</a>
-        
-            <a class="nav-item" href="/projects">Projects</a>
-        
-            <a class="nav-item" href="/about">About</a>
-        
-            <a class="nav-item" href="/contact">Contact</a>
-        
-            <a class="nav-item" href="/blog">Blog</a>
-        
+      <div class="nav-right nav-menu">
+        <a href="/about" class="nav-item">
+          About
+        </a>
+        <a href="/projects" class="nav-item">
+          Work
+        </a>
+        <a href="/blog" class="nav-item">
+          Blog
+        </a>
       </div>
     </div>
-  </nav>
-
-    <div class="container-fluid">
-        <section class="hero is-index is-medium">
-  <div class="hero-body">
-    <div class="container">
-      <div class="columns">
-        <div class="column is-three-quarters pushDown">
-          <h1 class="title is-2">
-            Make the most of <div class="green"><a href="https://www.shopify.com/?ref=patrick-bollenbach">Shopify.</a></div>
-          </h1>
-          <h2 class="subtitle is-4 heroText">
-            Professional Shopify setup and theme development to your specification.
-          </h2>
-        </div>
-        <div class="column is-one-quarter has-text-centered	">
-          <img src="download.png" alt="" class="heroImg"/>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-<hr>
-
-<div class="container">
-  <section class="section has-text-left	">
-    <p>
-      <h4 class="subtitle is-4">
-      I'm Patrick, a Canadian full stack freelance web developer. <br>
-      I currently specialize in Shopify development, getting your e-commerce site up and selling quickly with style.<br>
-      I'm available for freelancing gigs or remote jobs, and I'd love to chat with you about working on your project.
-      <a href="/contact">Contact me</a> and let's get started!
-      </h4>
-    </p>
-  </section>
-
-  <section class="section has-text-left">
-    <h4 class="title is-4">Recent Posts <small></small></h4>
-      
-        <div class="columns">
-          <div class="column">
-            <article class="media homebox">
-  <div class="columns">
-    <div class="column is-one-third">
-      <figure class="media-left">
-        <p>
-          <a href="/vuejs-tutorial/">
-            <img class="image" src="./vuejs-tutorial/vuejs.jpeg"/>
-          </a>
-        </p>
-      </figure>
-    </div>
-    <div class="column">
-        <div class="media-content">
-          <div class="content">
-              <p>
-                <a href="/vuejs-tutorial/">
-                  <h3 class="title is-3">VueJS CRUD Tutorial with Socket.io, Express, RethinkDB<small></small></h3>
-                </a>
-                <hr>
-                <p><img src="./vuejs.jpeg" alt="Vue JS Info Page"></p><h2 id="Introduction"><a href="#Introduction" class="headerlink" title="Introduction"></a>Introduction</h2><p>After learning Meteor and it’s easy to use, instantly reactive stack - I sought out to learn some of the other options out there in the Javascript world. I first went to learn React, as it had great Meteor integration. I built a few simple apps with React + Meteor, but I felt the lack of documentation and constantly changing opinions was a little bit confusing. I decided to ditch ...
-              </p>
-          </div>
-        </div>
-    </div>
-  </div>
-</article>
-
-          </div>
-        </div>
-      
-        <div class="columns">
-          <div class="column">
-            <article class="media homebox">
-  <div class="columns">
-    <div class="column is-one-third">
-      <figure class="media-left">
-        <p>
-          <a href="/beginner-react2/">
-            <img class="image" src="/images/react.png"/>
-          </a>
-        </p>
-      </figure>
-    </div>
-    <div class="column">
-        <div class="media-content">
-          <div class="content">
-              <p>
-                <a href="/beginner-react2/">
-                  <h3 class="title is-3">Free Tutorials For Beginners Learning React<small></small></h3>
-                </a>
-                <hr>
-                <p>After learning Meteor with Meteor’s custom templating library, Blaze, I sought out to learn React - the internet’s newest hype project.<br><a href="https://facebook.github.io/react/" rel="external nofollow" target="_blank">React</a> is Facebook’s child, acting as the V within the MVC context. From my experience so far, writing applications with the help of React has been incredibly fast and easy once you get over the scary starting phase.</p><p>Now that I’ve been developing with React for a couple of months, I thought I would highlight so...
-              </p>
-          </div>
-        </div>
-    </div>
-  </div>
-</article>
-
-          </div>
-        </div>
-      
-        <div class="columns">
-          <div class="column">
-            <article class="media homebox">
-  <div class="columns">
-    <div class="column is-one-third">
-      <figure class="media-left">
-        <p>
-          <a href="/beginner-react23/">
-            <img class="image" src="/images/react.png"/>
-          </a>
-        </p>
-      </figure>
-    </div>
-    <div class="column">
-        <div class="media-content">
-          <div class="content">
-              <p>
-                <a href="/beginner-react23/">
-                  <h3 class="title is-3">Free Tutorials For Beginners Learning React<small></small></h3>
-                </a>
-                <hr>
-                <p>After learning Meteor with Meteor’s custom templating library, Blaze, I sought out to learn React - the internet’s newest hype project.<br><a href="https://facebook.github.io/react/" rel="external nofollow" target="_blank">React</a> is Facebook’s child, acting as the V within the MVC context. From my experience so far, writing applications with the help of React has been incredibly fast and easy once you get over the scary starting phase.</p><p>Now that I’ve been developing with React for a couple of months, I thought I would highlight so...
-              </p>
-          </div>
-        </div>
-    </div>
-  </div>
-</article>
-
-          </div>
-        </div>
-      
-        <div class="columns">
-          <div class="column">
-            <article class="media homebox">
-  <div class="columns">
-    <div class="column is-one-third">
-      <figure class="media-left">
-        <p>
-          <a href="/beginner-react/">
-            <img class="image" src="/images/react.png"/>
-          </a>
-        </p>
-      </figure>
-    </div>
-    <div class="column">
-        <div class="media-content">
-          <div class="content">
-              <p>
-                <a href="/beginner-react/">
-                  <h3 class="title is-3">Free Tutorials For Beginners Learning React<small></small></h3>
-                </a>
-                <hr>
-                <p>After learning Meteor with Meteor’s custom templating library, Blaze, I sought out to learn React - the internet’s newest hype project.<br><a href="https://facebook.github.io/react/" rel="external nofollow" target="_blank">React</a> is Facebook’s child, acting as the V within the MVC context. From my experience so far, writing applications with the help of React has been incredibly fast and easy once you get over the scary starting phase.</p><p>Now that I’ve been developing with React for a couple of months, I thought I would highlight so...
-              </p>
-          </div>
-        </div>
-    </div>
-  </div>
-</article>
-
-          </div>
-        </div>
-      
-  </section>
-
-  <section class="section has-text-centered">
-    <h3 class="title is-3">Testimonials</h3>
-    <div class="columns">
-      <div class="column">
-        <p class="subtitle is-5">"Patrick was very familiar with the concept behind our product and offered valuable insight and recommendations as to the customer UI / UX, and added valuable feedback and comments on how the customer may interact through our web experience."<br> - Andy P. </p>
-      </div>
-      <div class="column">
-        <p class="subtitle is-5">
-          "Didn't have a single bad experience with Patrick and everything from communication to quality of work to overall pleasantness to work with was top notch. No need to weigh other options - go with Patrick!"<br> - Ryan W.
-        </p>
-      </div>
-    </div>
-  </section>
+  </header>
 </div>
 
-    </div>
+      <div class="container">
+        <section class="section has-text-centered">
+  <h2 class="subtitle is-3"> Freelance Web Developer <small class="subtitle is-5"> living in Dominical, Costa Rica.</small></h2>
+</section>
+<section class="section is-small has-text-left">
+  <h1 class="title is-1">Shopify Store Development <small></small></h1>
+  <h1 class="subtitle is-2"> Setup & Design <small></small></h1>
+</section>
+<section class="section is-small has-text-right">
+  <h1 class="title is-1">Full Stack Web Development <small></small></h1>
+  <h1 class="subtitle is-2"> with Vue JS, Node, RethinkDB. <small></small></h1>
+</section>
+<section class="section has-text-centered">
+  <a href="/contact" class="button is-link is-large">Interested? Get in touch.</a>
+
+</section>
+
+      </div>
     <script type="text/javascript">
     document.getElementById("nav-toggle").addEventListener("click", toggleNav);
     function toggleNav() {
@@ -254,27 +88,6 @@
             }
     }
 </script>
-
-    <footer class="footer">
-  <div class="container">
-    <div class="content has-text-centered white">
-      <p>
-        Built by Patrick Bollenbach
-      </p>
-      <p class="white">
-        <a class="icon" href="https://github.com/patrickbolle">
-          <i class="fa fa-github"></i>
-        </a>
-        <a class="icon" href="https://twitter.com/patrickbolle">
-          <i class="fa fa-twitter"></i>
-        </a>
-        <a class="icon" href="https://linkedin.com/patrickbolle">
-          <i class="fa fa-linkedin"></i>
-        </a>
-      </p>
-    </div>
-  </div>
-</footer>
 
 </body>
 </html>

@@ -11,11 +11,10 @@
     <link rel="icon" href="favicon/favicon.ico">
     <title>Patrick Bollenbach - Freelance Web Developer</title>
     <!-- Bulma + FontAwesome core CSS -->
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Droid+Sans:400,700|Droid+Serif:400,700" rel="stylesheet">
     <!-- Slider -->
     <link rel="stylesheet" href="/bulma.css">
-    <link rel="stylesheet" href="/styles.css">
     <script>
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
       (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -26,40 +25,40 @@
       ga('send', 'pageview');
 
     </script>
+    <link rel="stylesheet" href="/styles.css">
 </head>
 
 <body>
-      <nav class="nav">
+      <!-- Hero header: will stick at the top -->
+<div class="hero-head">
+  <header class="nav">
     <div class="container">
       <div class="nav-left">
-        <a class="nav-item" href="/">
-          <h4 class="subtitle is-4">patrick bollenbach</h4>
+        <a class="nav-item">
+          <h3 class="title is-3">patrick bollenbach <small></small></h3>
         </a>
       </div>
-
-      <span class="nav-toggle" id="nav-toggle">
+      <span class="nav-toggle">
         <span></span>
         <span></span>
         <span></span>
       </span>
-
-      <div class="nav-right nav-menu" id="nav-menu">
-        
-            <a class="nav-item" href="/">Home</a>
-        
-            <a class="nav-item" href="/projects">Projects</a>
-        
-            <a class="nav-item" href="/about">About</a>
-        
-            <a class="nav-item" href="/contact">Contact</a>
-        
-            <a class="nav-item" href="/blog">Blog</a>
-        
+      <div class="nav-right nav-menu">
+        <a href="/about" class="nav-item">
+          About
+        </a>
+        <a href="/projects" class="nav-item">
+          Work
+        </a>
+        <a href="/blog" class="nav-item">
+          Blog
+        </a>
       </div>
     </div>
-  </nav>
+  </header>
+</div>
 
-    <div class="container-fluid">
+      <div class="container">
         <div class="container">
   <!-- Title -->
   <div class="container">
@@ -71,6 +70,31 @@
   <div class="columns">
     <div class="column is-three-quarters">
       <div class="container content">
+        
+        <div class="blog-post">
+
+    <!-- Title -->
+    <h2 class="blog title is-3">
+        <a href="/beginner-react/">
+            Free Tutorials For Beginners Learning React
+            <div class="subtitle is-5">2016-05-11</div>
+        </a>
+    </h2>
+    <!-- Content -->
+   <p>After learning Meteor with Meteor’s custom templating library, Blaze, I sought out to learn React - the internet’s newest hype project.<br><a href="https://facebook.github.io/react/" rel="external nofollow" target="_blank">React</a> is Facebook’s child, acting as the V within the MVC context. From my experience so far, writing applications with the help of React has been incredibly fast and easy once you get over the scary starting phase.</p><p>Now that I’ve been developing with React for a couple of months, I thought I would highlight some of the resources I found to help me understand how/why React works the way that it does.<br>
+
+   <!-- Only display the Read More link if we are displaying an excerpt -->
+   
+       <p>
+           <a class="button is-link" href="/beginner-react/">
+               Read More
+           </a>
+       </p>
+   
+   <hr>
+
+</div>
+
         
         <div class="blog-post">
 
@@ -122,31 +146,6 @@
 </div>
 
         
-        <div class="blog-post">
-
-    <!-- Title -->
-    <h2 class="blog title is-3">
-        <a href="/beginner-react/">
-            Free Tutorials For Beginners Learning React
-            <div class="subtitle is-5">2016-05-11</div>
-        </a>
-    </h2>
-    <!-- Content -->
-   <p>After learning Meteor with Meteor’s custom templating library, Blaze, I sought out to learn React - the internet’s newest hype project.<br><a href="https://facebook.github.io/react/" rel="external nofollow" target="_blank">React</a> is Facebook’s child, acting as the V within the MVC context. From my experience so far, writing applications with the help of React has been incredibly fast and easy once you get over the scary starting phase.</p><p>Now that I’ve been developing with React for a couple of months, I thought I would highlight some of the resources I found to help me understand how/why React works the way that it does.<br>
-
-   <!-- Only display the Read More link if we are displaying an excerpt -->
-   
-       <p>
-           <a class="button is-link" href="/beginner-react/">
-               Read More
-           </a>
-       </p>
-   
-   <hr>
-
-</div>
-
-        
         
       </div>
     </div>
@@ -183,15 +182,13 @@
           
           <li><a data-src="/tags/Vue/" href="#Vue" title="Vue">Vue</a></li>
           
-          <li><a data-src="/tags/Vue-RethinkDB-Express-Socket-io-Node/" href="#Vue, RethinkDB, Express, Socket.io, Node" title="Vue, RethinkDB, Express, Socket.io, Node">Vue, RethinkDB, Express, Socket.io, Node</a></li>
-          
         </ul>
       </aside>
     </div>
   </div>
 </div>
 
-    </div>
+      </div>
     <script type="text/javascript">
     document.getElementById("nav-toggle").addEventListener("click", toggleNav);
     function toggleNav() {
@@ -204,27 +201,6 @@
             }
     }
 </script>
-
-    <footer class="footer">
-  <div class="container">
-    <div class="content has-text-centered white">
-      <p>
-        Built by Patrick Bollenbach
-      </p>
-      <p class="white">
-        <a class="icon" href="https://github.com/patrickbolle">
-          <i class="fa fa-github"></i>
-        </a>
-        <a class="icon" href="https://twitter.com/patrickbolle">
-          <i class="fa fa-twitter"></i>
-        </a>
-        <a class="icon" href="https://linkedin.com/patrickbolle">
-          <i class="fa fa-linkedin"></i>
-        </a>
-      </p>
-    </div>
-  </div>
-</footer>
 
 </body>
 </html>

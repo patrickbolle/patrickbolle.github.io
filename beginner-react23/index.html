@@ -11,11 +11,10 @@
     <link rel="icon" href="favicon/favicon.ico">
     <title>Patrick Bollenbach - Freelance Web Developer</title>
     <!-- Bulma + FontAwesome core CSS -->
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Droid+Sans:400,700|Droid+Serif:400,700" rel="stylesheet">
     <!-- Slider -->
     <link rel="stylesheet" href="/bulma.css">
-    <link rel="stylesheet" href="/styles.css">
     <script>
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
       (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -26,88 +25,82 @@
       ga('send', 'pageview');
 
     </script>
+    <link rel="stylesheet" href="/styles.css">
 </head>
 
 <body>
-      <nav class="nav">
+      <!-- Hero header: will stick at the top -->
+<div class="hero-head">
+  <header class="nav">
     <div class="container">
       <div class="nav-left">
-        <a class="nav-item" href="/">
-          <h4 class="subtitle is-4">patrick bollenbach</h4>
+        <a class="nav-item">
+          <h3 class="title is-3">patrick bollenbach <small></small></h3>
         </a>
       </div>
-
-      <span class="nav-toggle" id="nav-toggle">
+      <span class="nav-toggle">
         <span></span>
         <span></span>
         <span></span>
       </span>
-
-      <div class="nav-right nav-menu" id="nav-menu">
-        
-            <a class="nav-item" href="/">Home</a>
-        
-            <a class="nav-item" href="/projects">Projects</a>
-        
-            <a class="nav-item" href="/about">About</a>
-        
-            <a class="nav-item" href="/contact">Contact</a>
-        
-            <a class="nav-item" href="/blog">Blog</a>
-        
+      <div class="nav-right nav-menu">
+        <a href="/about" class="nav-item">
+          About
+        </a>
+        <a href="/projects" class="nav-item">
+          Work
+        </a>
+        <a href="/blog" class="nav-item">
+          Blog
+        </a>
       </div>
     </div>
-  </nav>
+  </header>
+</div>
 
-    <div class="container-fluid">
+      <div class="container">
         <div class="container">
     <!-- Title -->
     <div class="container">
       <h1 class="title is-3">
         Free Tutorials For Beginners Learning React
-        <hr>
       </h1>
+      
+        <p>
+          Category:
+          
+          <a data-src="/categories/React/" href="/categories/React" title="React">React</a>
+          
+          &nbsp; &nbsp;
+          Tags:
+          
+          <a data-src="/tags/Javascript/" href="/tags/Javascript" title="Javascript">Javascript, </a>
+          
+          <a data-src="/tags/React/" href="/tags/React" title="React">React, </a>
+          
+          <a data-src="/tags/Tutorial/" href="/tags/Tutorial" title="Tutorial">Tutorial, </a>
+          
+        </p>
+      
+      <hr>
     </div>
     <div class="columns">
-      
-        <div class="column is-three-quarters">
-      
+      <div class="column">
         <div class="container content">
+          
+            <div class="has-text-centered">
+              <img src="/images/react.png" alt="" height="500px" />
+            </div>
+          
           <!-- Content -->
           <p>After learning Meteor with Meteor’s custom templating library, Blaze, I sought out to learn React - the internet’s newest hype project.<br><a href="https://facebook.github.io/react/" rel="external nofollow" target="_blank">React</a> is Facebook’s child, acting as the V within the MVC context. From my experience so far, writing applications with the help of React has been incredibly fast and easy once you get over the scary starting phase.</p><p>Now that I’ve been developing with React for a couple of months, I thought I would highlight some of the resources I found to help me understand how/why React works the way that it does.<br><a id="more"></a></p><p>PS. I will be adding to this post as I discover more guides, send me an <a href="mailto:contact@patrickbollenbach.com" rel="external nofollow" target="_blank">email</a> if you have any good resources to share.</p><h3 id="Free-Tutorials-Guides"><a href="#Free-Tutorials-Guides" class="headerlink" title="Free Tutorials/Guides"></a>Free Tutorials/Guides</h3><ul><li>First and foremost, take a good look at Facebook’s own documentation on React. It isn’t the most indepth documentation, but it will get you started in thinking the “React way” - <a href="https://facebook.github.io/react/docs/getting-started.html" rel="external nofollow" target="_blank">https://facebook.github.io/react/docs/getting-started.html</a></li><li>Second take a look at <a href="http://blog.andrewray.me/reactjs-for-stupid-people/" rel="external nofollow" target="_blank">React JS For Stupid People</a> by Andrew Ray. It’s a fantastic introduction into React concepts for anybody familiar with programming logic.</li><li>Assuming you know something (even a little bit) about Node and NPM, this <a href="http://nodeschool.io/" rel="external nofollow" target="_blank">Nodeschool.io</a> command-line workshop is fantastic to get your head around the basics of React (components). <a href="https://github.com/kohei-takata/learnyoureact" rel="external nofollow" target="_blank">https://github.com/kohei-takata/learnyoureact</a></li><li>LevelUpTuts is a fantastic Youtube channel for learning programming<ul><li><a href="https://www.youtube.com/playlist?list=PLLnpHn493BHFfs3Uj5tvx17mXk4B4ws4p" rel="external nofollow" target="_blank">This ‘React For Everyone’ Tutorial series if absolutely fantastic and in my opinion is essential to learn React</a></li><li>and.. If you are a Meteor developer, <a href="https://www.youtube.com/watch?v=B_HJCmoSvmc" rel="external nofollow" target="_blank">LevelUp’s Meteor + React series is also incredible</a></li></ul></li><li><a href="https://egghead.io/lessons/react-building-a-react-js-app-notetaker-introduction?series=build-your-first-react-js-application" rel="external nofollow" target="_blank">Egghead.io has a great React note-taking application tutorial, only catch is you have to enter your email address to view the tutorials. Nevertheless, egghead is a fantastic online programming site, lots to learn on there.</a></li></ul><h3 id="General"><a href="#General" class="headerlink" title="General"></a>General</h3><ul><li>If you use <a href="https://atom.io/" rel="external nofollow" target="_blank">Atom</a>, Github’s open source text editor, the <a href="https://orktes.github.io/atom-react/" rel="external nofollow" target="_blank">React plugin is a fantastic tool.</a><ul><li>For example, typing the command “rcc6” will create a full React ES6 component, extremely useful for writing quick React apps.</li></ul></li></ul><p></p><hr><br>That’s all for now, but I will be adding to this list as I discover other resources. Good luck!<p></p>
         </div>
       </div>
-      
-        <div class="column is-one-quarter"
-          <aside class="menu">
-            <p class="menu-label">
-              Post Categories
-            </p>
-            <ul class="menu-list">
-              
-              <li><a data-src="/categories/React/" href="/categories/React" title="React">React</a></li>
-              
-            </ul>
-            <p class="menu-label">
-              Post Tags
-            </p>
-            <ul class="menu-list">
-              
-              <li><a data-src="/tags/Javascript/" href="/tags/Javascript" title="Javascript">Javascript</a></li>
-              
-              <li><a data-src="/tags/React/" href="/tags/React" title="React">React</a></li>
-              
-              <li><a data-src="/tags/Tutorial/" href="/tags/Tutorial" title="Tutorial">Tutorial</a></li>
-              
-            </ul>
-          </aside>
-        </div>
-      
     </div>
 </div>
 
 
-    </div>
+      </div>
     <script type="text/javascript">
     document.getElementById("nav-toggle").addEventListener("click", toggleNav);
     function toggleNav() {
@@ -120,27 +113,6 @@
             }
     }
 </script>
-
-    <footer class="footer">
-  <div class="container">
-    <div class="content has-text-centered white">
-      <p>
-        Built by Patrick Bollenbach
-      </p>
-      <p class="white">
-        <a class="icon" href="https://github.com/patrickbolle">
-          <i class="fa fa-github"></i>
-        </a>
-        <a class="icon" href="https://twitter.com/patrickbolle">
-          <i class="fa fa-twitter"></i>
-        </a>
-        <a class="icon" href="https://linkedin.com/patrickbolle">
-          <i class="fa fa-linkedin"></i>
-        </a>
-      </p>
-    </div>
-  </div>
-</footer>
 
 </body>
 </html>
