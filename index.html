@@ -11,7 +11,7 @@
     <link rel="icon" href="favicon/favicon.ico">
     <title>Patrick Bollenbach - Freelance Web Developer</title>
     <!-- Bulma + Fonts core CSS -->
-    <link href="https://fonts.googleapis.com/css?family=Noto+Sans:400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
     <link rel="stylesheet" href="/bulma.css">
     <script>
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -23,16 +23,17 @@
       ga('send', 'pageview');
     </script>
     <link rel="stylesheet" href="/styles.css">
+    <link rel="stylesheet" href="/animate.css">
 </head>
 
 <body>
       <!-- Hero header: will stick at the top -->
 <div class="hero-head">
-  <header class="nav">
+  <header class="nav animated fadeIn">
     <div class="container">
       <div class="nav-left">
         <a class="nav-item" href="/">
-          <h3 class="title is-3">patrick bollenbach <small></small></h3>
+          <h3 class="navTitle title is-3 ">patrick bollenbach <small></small></h3>
         </a>
       </div>
       <span class="nav-toggle">
@@ -50,6 +51,9 @@
         <a href="/blog" class="nav-item">
           Blog
         </a>
+        <a class="button is-link nav-item navButton" href="/contact">
+          Hire Me
+        </a>
       </div>
     </div>
   </header>
@@ -57,17 +61,17 @@
 
       <div class="container">
         <section class="section has-text-centered">
-  <h2 class="subtitle is-3"> Freelance Web Developer <small class="subtitle is-5"> living in Dominical, Costa Rica.</small></h2>
+  <h2 class="subtitle is-3 mainHome "> Freelance Web Developer <small class="subtitle is-5 mainHomeSub"> living in Dominical, Costa Rica.</small></h2>
 </section>
-<section class="section is-small has-text-left">
+<section class="section is-small has-text-left animated fadeInLeft">
   <h1 class="title is-1">Shopify Store Development <small></small></h1>
   <h1 class="subtitle is-2"> Setup & Design <small></small></h1>
 </section>
-<section class="section is-small has-text-right">
+<section class="section is-small has-text-right animated fadeInRight">
   <h1 class="title is-1">Full Stack Web Development <small></small></h1>
   <h1 class="subtitle is-2"> with Vue JS, Node, RethinkDB. <small></small></h1>
 </section>
-<section class="section has-text-centered">
+<section class="section has-text-centered animated pulse">
   <a href="/contact" class="button is-link is-large">Interested? Get in touch.</a>
 
 </section>
