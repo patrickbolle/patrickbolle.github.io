@@ -3,7 +3,7 @@
 <head>
     <link rel="canonical" href="patrickbollenbach.com/projects/"/>
     <meta charset="utf-8">
-    <meta content="shopify, freelance, partner, meteor, web dev, canadian, full stack, design, Canada" name="keywords">
+    <meta content="shopify, freelance, partner, meteor, web dev, canadian, full stack, design, Canada, developer, vue, node" name="keywords">
     <meta content="Patrick Bollenbach" name="author">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
@@ -24,24 +24,24 @@
     </script>
     <link rel="stylesheet" href="/styles.css">
     <link rel="stylesheet" href="/animate.css">
+    <script src="/helper.js"></script>
 </head>
 
 <body>
-      <!-- Hero header: will stick at the top -->
-<div class="hero-head">
-  <header class="nav animated fadeIn">
+  <!-- Hero header: will stick at the top -->
+  <nav class="nav has-shadow animated fadeIn">
     <div class="container">
       <div class="nav-left">
         <a class="nav-item" href="/">
           <h3 class="navTitle title is-3 ">patrick bollenbach <small></small></h3>
         </a>
       </div>
-      <span class="nav-toggle">
+      <span id="nav-toggle" class="nav-toggle">
         <span></span>
         <span></span>
         <span></span>
       </span>
-      <div class="nav-right nav-menu">
+      <div id="nav-menu" class="nav-right nav-menu">
         <a href="/about" class="nav-item">
           About
         </a>
@@ -56,20 +56,19 @@
         </a>
       </div>
     </div>
-  </header>
-</div>
+  </nav>
 
-      <div class="container">
-        <div class="container content">
+  <div class="container">
+  <div class="container content">
   <hr>
   <!-- Content -->
-  <h1 class="title is-1">Work <small></small></h1><p class="subtitle is-3">Under construction... <small></small></p>
+  <h1 class="title is-1">Work <small></small></h1><div class="columns"><div class="column is-one-third"><div class="card"><div class="card-image"><figure class="image is-square"><img src="http://placehold.it/1024x1024" alt=""></figure></div></div></div><div class="column is-two-thirds"><h1 class="title is-2">EST8.io <small></small></h1><hr><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p></div></div><div class="columns"><div class="column is-one-third"><div class="card"><div class="card-image"><figure class="image is-square"><img src="http://placehold.it/1024x1024" alt=""></figure></div></div></div><div class="column is-two-thirds"><h1 class="title is-2">EST8.io <small></small></h1><hr><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p></div></div><div class="columns"><div class="column is-one-third"><div class="card"><div class="card-image"><figure class="image is-square"><img src="http://placehold.it/1024x1024" alt=""></figure></div></div></div><div class="column is-two-thirds"><h1 class="title is-2">EST8.io <small></small></h1><hr><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p></div></div>
 </div>
 
 
-      </div>
-    <script type="text/javascript">
-    document.getElementById("nav-toggle").addEventListener("click", toggleNav);
+  </div>
+  <script type="text/javascript">
+    document.getElementById("nav-toggle").addEventListener ("click", toggleNav);
     function toggleNav() {
             var nav = document.getElementById("nav-menu");
             var className = nav.getAttribute("class");

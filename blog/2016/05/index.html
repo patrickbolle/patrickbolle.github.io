@@ -3,7 +3,7 @@
 <head>
     <link rel="canonical" href="patrickbollenbach.com/blog/2016/05/"/>
     <meta charset="utf-8">
-    <meta content="shopify, freelance, partner, meteor, web dev, canadian, full stack, design, Canada" name="keywords">
+    <meta content="shopify, freelance, partner, meteor, web dev, canadian, full stack, design, Canada, developer, vue, node" name="keywords">
     <meta content="Patrick Bollenbach" name="author">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
@@ -24,24 +24,24 @@
     </script>
     <link rel="stylesheet" href="/styles.css">
     <link rel="stylesheet" href="/animate.css">
+    <script src="/helper.js"></script>
 </head>
 
 <body>
-      <!-- Hero header: will stick at the top -->
-<div class="hero-head">
-  <header class="nav animated fadeIn">
+  <!-- Hero header: will stick at the top -->
+  <nav class="nav has-shadow animated fadeIn">
     <div class="container">
       <div class="nav-left">
         <a class="nav-item" href="/">
           <h3 class="navTitle title is-3 ">patrick bollenbach <small></small></h3>
         </a>
       </div>
-      <span class="nav-toggle">
+      <span id="nav-toggle" class="nav-toggle">
         <span></span>
         <span></span>
         <span></span>
       </span>
-      <div class="nav-right nav-menu">
+      <div id="nav-menu" class="nav-right nav-menu">
         <a href="/about" class="nav-item">
           About
         </a>
@@ -56,11 +56,10 @@
         </a>
       </div>
     </div>
-  </header>
-</div>
+  </nav>
 
-      <div class="container">
-        <div class="container">
+  <div class="container">
+  <div class="container">
   <hr>
   <!-- Title -->
   <h1 class="title is-1">Blog <small></small></h1>
@@ -185,9 +184,9 @@
   </div>
 </div>
 
-      </div>
-    <script type="text/javascript">
-    document.getElementById("nav-toggle").addEventListener("click", toggleNav);
+  </div>
+  <script type="text/javascript">
+    document.getElementById("nav-toggle").addEventListener ("click", toggleNav);
     function toggleNav() {
             var nav = document.getElementById("nav-menu");
             var className = nav.getAttribute("class");
