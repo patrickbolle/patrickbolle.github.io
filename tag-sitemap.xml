@@ -2,27 +2,6 @@
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
     <url>
-        <loc>patrickbollenbach.com/tags/React/</loc>
-        <lastmod>2016-07-18T12:03:32.559Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>patrickbollenbach.com/tags/Javascript/</loc>
-        <lastmod>2016-07-18T12:03:32.559Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>patrickbollenbach.com/tags/Tutorial/</loc>
-        <lastmod>2016-07-18T12:03:32.559Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
         <loc>patrickbollenbach.com/tags/Vue/</loc>
         <lastmod>2016-07-25T17:46:45.230Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -53,6 +32,20 @@
     <url>
         <loc>patrickbollenbach.com/tags/Socket-io/</loc>
         <lastmod>2016-07-25T17:46:45.230Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>patrickbollenbach.com/tags/Music/</loc>
+        <lastmod>2016-08-10T18:03:29.483Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>patrickbollenbach.com/tags/Ambient/</loc>
+        <lastmod>2016-08-10T18:03:29.483Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
