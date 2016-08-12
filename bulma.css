@@ -221,7 +221,8 @@ pre {
   -moz-osx-font-smoothing: auto;
   -webkit-font-smoothing: auto;
   font-family: "Source Code Pro", "Monaco", "Inconsolata", monospace;
-  line-height: 1.25;
+  line-height: 1.55;
+  font-size: 15px;
 }
 
 body {
@@ -1256,16 +1257,24 @@ a.box:active {
 }
 
 .content a {
-  border-bottom: 1px solid #d3d6db;
-}
-
-.content a:visited {
-  color: #847bb9;
+  border-bottom: none;
 }
 
 .content a:hover {
-  border-bottom-color: #1fc8db;
+  border-bottom: none;
 }
+
+.content a:visited {
+  color: #319b62;
+}
+
+li {
+  font-size: 17px;
+  font-family: 'Lato';
+  font-weight: 600;
+  color: #343642;
+}
+
 
 .content li + li {
   margin-top: 0.25em;
@@ -1285,7 +1294,7 @@ a.box:active {
 .content h5,
 .content h6 {
   color: #222324;
-  font-weight: 300;
+  font-weight: 500;
   line-height: 1.125;
   margin-bottom: 20px;
 }
@@ -2477,10 +2486,6 @@ a.box:active {
   font-weight: 300;
 }
 
-.title a:hover,
-.subtitle a:hover {
-  border-bottom: 1px solid;
-}
 
 .title strong,
 .subtitle strong {
@@ -3033,6 +3038,11 @@ a.box:active {
 
 .card-content .title + .subtitle {
   margin-top: -20px;
+}
+
+.postContent {
+  width: 85%;
+  margin: 0px auto;
 }
 
 .card-footer {
@@ -4757,7 +4767,7 @@ a.box:active {
   color: white;
 }
 
-.menu-list li ul {
+.menu-list ul {
   border-left: 1px solid #d3d6db;
   margin: 10px;
   padding-left: 10px;
