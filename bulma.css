@@ -6646,6 +6646,11 @@ a.panel-block:hover {
   padding: 40px 20px;
 }
 
+.sectionHome {
+  background: #fff;
+  padding: 25px 20px;
+}
+
 @media screen and (min-width: 980px) {
   .section.is-medium {
     padding: 120px 20px;
