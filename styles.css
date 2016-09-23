@@ -2,6 +2,15 @@ html {
     background: #fff !important;
     font-family: 'Lato', sans-serif !important;
 }
+
+p, a, h1, h2, h3, h4, h5 {
+  opacity: 1 !important;
+}
+
+a {
+  color: #42b078;
+}
+
 @media (min-width: 600px) {
     .nav {
         padding-top: 30px;
@@ -279,4 +288,28 @@ label {
     margin: 0px auto;
     letter-spacing: 1px;
     color: rgb(39, 102, 115) !important;
+}
+
+.articleTitle {
+  font-weight: bold !important;
+  color: #42b078 !important;
+}
+
+.postContent h2 {
+  text-align: center;
+  color: rgb(68, 68, 68);
+  font-weight: bold !important;
+}
+
+.archivePost h1 {
+  font-weight: bold !important;
+}
+
+footer {
+  background: white !important;
+  height: 100px;
+}
+
+.footIcon {
+  padding: 50px;
 }
