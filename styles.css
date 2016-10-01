@@ -313,3 +313,12 @@ footer {
 .footIcon {
   padding: 50px;
 }
+
+.largeButton {
+  font-size: 33px !important;
+  padding: 50px;
+}
+
+.largeHeight {
+  line-height: 100px;
+}
