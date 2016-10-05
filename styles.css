@@ -18,6 +18,9 @@ a {
         box-shadow: none !important;
         font-family: 'Lato', sans-serif !important;
     }
+    .container {
+      width: 90% !important;
+    }
 }
 @media (max-width: 600px) {
     .nav {
@@ -320,5 +323,15 @@ footer {
 }
 
 .largeHeight {
-  line-height: 100px;
+  line-height: 80px;
+}
+@media (max-width: 600px) {
+  .largeHeight {
+    font-size: 20px !important;
+    line-height: 30px;
+  }
+  .largeButton {
+    font-size: 23px !important;
+    padding: 20px;
+  }
 }
