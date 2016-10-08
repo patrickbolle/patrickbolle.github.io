@@ -1,6 +1,6 @@
 html {
     background: #fff !important;
-    font-family: 'Lato', sans-serif !important;
+    font-family: 'Noto Sans', sans-serif !important;
 }
 
 p, a, h1, h2, h3, h4, h5 {
@@ -16,7 +16,7 @@ a {
         padding-top: 30px;
         background: #fff !important;
         box-shadow: none !important;
-        font-family: 'Lato', sans-serif !important;
+        font-family: 'Noto Sans', sans-serif !important;
     }
     .container {
       width: 90% !important;
@@ -27,7 +27,7 @@ a {
         width: 90%;
         margin: 0px auto;
         margin-top: 5px;
-        font-family: 'Lato', sans-serif !important;
+        font-family: 'Noto Sans', sans-serif !important;
         background: #fff !important;
         box-shadow: none !important;
     }
@@ -50,7 +50,7 @@ a {
     }
 }
 h1, h2, h3, h4, h5 {
-    font-family: 'Lato', sans-serif !important;
+  font-family: 'Noto Sans', sans-serif !important;
 }
 .title {
     color: #343642 !important;
@@ -59,15 +59,15 @@ h1, h2, h3, h4, h5 {
     color: #343642 !important;
 }
 p {
-    font-family: 'Lato', sans-serif !important;
+  font-family: 'Noto Sans', sans-serif !important;
     font-size: 18px;
     color: #343642 !important;
 }
 a {
-    font-family: 'Lato', sans-serif !important;
+  font-family: 'Noto Sans', sans-serif !important;
 }
 button {
-    font-family: 'Lato' !important;
+  font-family: 'Noto Sans', sans-serif !important;
 }
 .nav-item {
     color: #343642 !important;
@@ -104,8 +104,8 @@ button {
     color: rgba(52, 136, 153, 0.95) !important;
 }
 label {
-    font-family: 'Lato', sans-serif !important;
-    font-size: 20px;
+  font-family: 'Noto Sans', sans-serif !important;
+  font-size: 20px;
 }
 .menu-list a:hover {
     background: #f5f7fa;
@@ -310,7 +310,8 @@ label {
 
 footer {
   background: white !important;
-  height: 100px;
+  height: 30px;
+  padding-top:20px !important;
 }
 
 .footIcon {
@@ -318,12 +319,12 @@ footer {
 }
 
 .largeButton {
-  font-size: 33px !important;
-  padding: 50px;
+  font-size: 20px !important;
+  padding: 30px;
 }
 
 .largeHeight {
-  line-height: 80px;
+  line-height: 30px;
 }
 @media (max-width: 600px) {
   .largeHeight {
@@ -334,4 +335,28 @@ footer {
     font-size: 23px !important;
     padding: 20px;
   }
+}
+
+.headIcon {
+  padding-top: 10px;
+  padding-right: 35px;
+}
+
+.gray {
+  color: #756b6b !important;
+  font-size: 15px;
+  line-height: 25px;
+  font-weight: bold;
+}
+
+ul {
+  list-style: circle;
+}
+li {
+  font-family: 'Noto Sans' !important;
+  font-weight: normal;
+}
+
+.small {
+  font-size: 17px;
 }
