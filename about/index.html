@@ -15,7 +15,7 @@
       
   </title>
   <!-- Bulma + Fonts core CSS -->
-  <link href="https://fonts.googleapis.com/css?family=Noto+Sans|Noto+Serif" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Noto+Sans|Noto+Serif:400,700,700i" rel="stylesheet">
   <link rel="stylesheet" href="/bulma.css">
   <script>
     (function(i, s, o, g, r, a, m) {
@@ -38,32 +38,41 @@
 </head>
 
 <body>
+  
+  <section class="test">
+  
   <!-- Hero header: will stick at the top -->
-  <nav class="nav has-shadow animated fadeIn">
+<div class="hero-head">
+  <header class="nav">
     <div class="container">
       <div class="nav-left">
-        <a class="nav-item" href="/">
-          <h3 class="navTitle title is-3 ">patrick bollenbach <small></small></h3>
+        <a href="/" class="nav-item">
+          patrick bollenbach
         </a>
       </div>
-      <span id="nav-toggle" class="nav-toggle">
+      <span class="nav-toggle">
         <span></span>
         <span></span>
         <span></span>
       </span>
-      <div id="nav-menu" class="nav-right nav-menu">
-        <a class="small nav-item" href="/contact">
-          contact me
+      <div class="nav-right nav-menu">
+        <a class="nav-item typeform-share link" href="https://patrickbolle.typeform.com/to/KvVxfJ" data-mode="1" target="_blank" rel="external nofollow">
+          contact
         </a>
-        <a class="small nav-item" href="/blog">
+        <script>(function(){var qs,js,q,s,d=document,gi=d.getElementById,ce=d.createElement,gt=d.getElementsByTagName,id='typef_orm',b='https://s3-eu-west-1.amazonaws.com/share.typeform.com/';if(!gi.call(d,id)){js=ce.call(d,'script');js.id=id;js.src=b+'share.js';q=gt.call(d,'script')[0];q.parentNode.insertBefore(js,q)}})()</script>
+
+        <a href="/blog" class="nav-item">
           blog
         </a>
       </div>
     </div>
-  </nav>
+  </header>
+</div>
 
-  <div class="container">
-  <div class="container content">
+  <!-- Hero content: will be in the middle -->
+  <div class="hero-body">
+    <div class="container">
+      <div class="container content">
   <!-- Content -->
   <!-- BEGIN INFO BLOCK -->
 <h1 class="title is-1">About Me <small></small></h1>
@@ -105,7 +114,12 @@
 
 
 
+    </div>
   </div>
+  <!-- Hero footer: will stick at the bottom -->
+  <!-- 
+   -->
+  </section>
   <script type="text/javascript">
     document.getElementById("nav-toggle").addEventListener("click", toggleNav);
 

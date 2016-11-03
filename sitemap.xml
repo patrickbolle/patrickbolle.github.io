@@ -2,6 +2,27 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>patrickbollenbach.com/portfolio/index.html</loc>
+    
+    <lastmod>2016-11-03T17:50:35.383Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>patrickbollenbach.com/services/index.html</loc>
+    
+    <lastmod>2016-11-03T17:44:48.637Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>patrickbollenbach.com/granim.js</loc>
+    
+    <lastmod>2016-10-31T21:18:26.316Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>patrickbollenbach.com/contact/index.html</loc>
     
     <lastmod>2016-10-28T16:27:55.267Z</lastmod>
@@ -19,13 +40,6 @@
     <loc>patrickbollenbach.com/about/index.html</loc>
     
     <lastmod>2016-09-23T17:44:55.701Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>patrickbollenbach.com/granim.js</loc>
-    
-    <lastmod>2016-09-23T16:43:03.709Z</lastmod>
     
   </url>
   

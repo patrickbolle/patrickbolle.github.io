@@ -5682,6 +5682,9 @@ a.panel-block:hover {
   }
 }
 
+.hero-foot {
+  background: rgba(26, 35, 43, 0.72);
+}
 .hero-head,
 .hero-foot {
   -webkit-flex-shrink: 0;
@@ -6280,10 +6283,24 @@ a.panel-block:hover {
   }
 }
 
-.hero.is-success {
-  background: #97cd76;
-  color: white;
+@media screen and (min-width: 768px) {
+  .hero.is-success {
+    background: url(largesurf.jpg);
+    background-size: cover;
+    color: white;
+  }
 }
+
+@media screen and (max-width: 768px) {
+  .hero.is-success {
+    background: url(largesurf.jpg);
+    background-position: top;
+    background-size:auto;
+    color: white;
+  }
+}
+
+
 
 .hero.is-success .title {
   color: white;
@@ -6572,10 +6589,10 @@ a.panel-block:hover {
 }
 
 .hero.is-fullheight .hero-body {
-  -webkit-box-align: center;
+  /*-webkit-box-align: center;
   -webkit-align-items: center;
       -ms-flex-align: center;
-          align-items: center;
+          align-items: center;*/
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
