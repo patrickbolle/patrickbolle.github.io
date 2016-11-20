@@ -1,0 +1,14 @@
+User-agent: *
+Disallow: /vendors/
+Disallow: /js/
+Disallow: /css/
+Disallow: /fonts/
+Disallow: /vendors/
+Disallow: /fancybox/
+Allow: /
+Allow: /portfolio
+Allow: /blog
+Allow: /services
+Allow: /contact
+Allow: /tags/
+Sitemap: /sitemap.xml
