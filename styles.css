@@ -75,8 +75,12 @@ button {
   font-family: 'Noto Sans', sans-serif !important;
 }
 .nav-item {
-    color: #343642 !important;
+    color: #343642;
     font-size: 22px;
+}
+
+.nav-left .nav-item {
+      color: #343642 !important;   
 }
 .section {
     background: #fff !important;
@@ -303,4 +307,8 @@ li {
 
 .greenRibbonText a {
   color: white !important;
+}
+
+.workNav {
+  border-bottom: 1px dotted #42b078;
 }
