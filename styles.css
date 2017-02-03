@@ -1,1 +1,326 @@
-.navTitle,.title,p{color:#343642!important}.hero .is-success,.section,html{background:#fff!important}a,button,h1,h2,h3,h4,h5,html,label,p{font-family:'Noto Sans',sans-serif!important}a,h1,h2,h3,h4,h5,p{opacity:1!important}a{color:#42b078}@media (min-width:600px){.nav{padding-top:30px;box-shadow:none!important;font-family:'Noto Sans',sans-serif!important}.container{width:90%!important;margin:0 auto}}@media (max-width:600px){.nav{width:90%;margin:5px auto 0;font-family:'Noto Sans',sans-serif!important;box-shadow:none!important}.container{width:95%;margin:0 auto}section{text-align:center!important}.contactForm{width:90%!important;margin:0 auto!important}}p{font-size:18px}.nav-item{color:#343642;font-size:22px}.nav-left .nav-item{color:#343642!important}.contactForm{margin:0 auto;width:50%}.card{background-color:rgba(0,0,0,.02)}.subtitle,.title{font-weight:400!important}.archivePost h1,.articleTitle,.postContent h2{font-weight:700!important}.navButton{height:auto!important;line-height:normal!important;color:#962D3E!important}.mainHome{color:#276673!important}.mainHomeSub{color:rgba(52,136,153,.95)!important}label{font-size:20px}.articleTitle{color:#42b078!important}.postContent h2{text-align:center;color:#444}footer{background:#fff!important;height:30px;padding-top:20px!important}.footIcon{padding:50px}.largeButton{font-size:20px!important;padding:30px}.largeHeight{line-height:30px}@media (max-width:600px){.largeHeight{font-size:20px!important;line-height:30px}.largeButton{font-size:23px!important;padding:20px}}.headIcon{padding-top:10px;padding-right:35px}.gray{color:#756b6b!important;font-size:15px;line-height:25px;font-weight:700}ul{list-style:circle}li{font-family:'Noto Sans'!important;font-weight:400}.small{font-size:17px}@media (min-width:768px){.homeTitle{color:#756b6b;font-size:95px;font-weight:700;letter-spacing:-2px;line-height:1;text-align:center}}@media (max-width:768px){.homeTitle{color:#756b6b;font-size:50px;font-weight:700;letter-spacing:-1px;line-height:1;text-align:center}}.homeTitle a:hover{color:#fff!important}@media (min-width:768px){.homeHeading{color:#4b4441;font-size:20px;font-weight:500;letter-spacing:0;line-height:1.5;text-align:center}}@media (max-width:768px){.homeHeading{color:#4b4441;font-size:20px;font-weight:500;letter-spacing:0;line-height:1.5;text-align:center}}.homeButton{width:70%;background-color:transparent;border:1px solid gray;color:#4b4441!important}.panel{border-radius:0!important}.panel-heading{background:#7ab55c!important;border-radius:0;color:#fff!important;margin-bottom:0!important}.finalBlock{background-color:#7ab55c!important;color:#fff!important}.finalBlock .button.is-link{color:#fff!important;margin-top:0}.finalBlock .button.is-link:hover{color:#000!important;margin-top:0}.greenRibbonText a,.homeButton:hover{color:#fff!important}.finalBlock .button:hover{background:#fff}.panel-block{margin-bottom:0!important;padding:20px}.webApp{background:#b55c5c!important}.card{text-align:center!important;-webkit-box-shadow:0 3px 26px -7px rgba(0,0,0,.75);-moz-box-shadow:0 3px 26px -7px rgba(0,0,0,.75);box-shadow:0 3px 26px -7px rgba(0,0,0,.75)}.homeButton:hover{background:#42b078!important;width:30%!important}.hero.is-success .nav-toggle span{background:#000!important}.greenRibbonText{background:rgba(66,176,120,.95);padding:10px}.greenRibbonText:hover{background:rgba(66,176,120,.5)}.workNav{border-bottom:1px dotted #42b078}
+html {
+    background: #fff !important;
+    font-family: 'Noto Sans', sans-serif !important;
+}
+
+p, a, h1, h2, h3, h4, h5 {
+  opacity: 1 !important;
+}
+
+a {
+  color: #42b078;
+}
+
+.hero .is-success {
+  /*background: url(back.jpg) !important;*/
+  background: white !important;
+}
+@media (min-width: 600px) {
+    .nav {
+        padding-top: 30px;
+        /*background: #fff !important;*/
+        box-shadow: none !important;
+        font-family: 'Noto Sans', sans-serif !important;
+    }
+    .container {
+      width: 90% !important;
+      margin: 0px auto;
+    }
+}
+@media (max-width: 600px) {
+    .nav {
+        width: 90%;
+        margin: 0px auto;
+        margin-top: 5px;
+        font-family: 'Noto Sans', sans-serif !important;
+        /*background: #fff !important;*/
+        box-shadow: none !important;
+    }
+    .container {
+        width: 95%;
+        margin: 0px auto;
+    }
+    /*.title.is-1 {
+        font-size: 35px;
+    }
+    h2 {
+        font-size: 15px;
+    }*/
+    section {
+        text-align: center !important;
+    }
+    .contactForm {
+        width: 90% !important;
+        margin: 0px auto !important;
+    }
+}
+h1, h2, h3, h4, h5 {
+  font-family: 'Noto Sans', sans-serif !important;
+}
+.title {
+    color: #343642 !important;
+}
+.navTitle {
+    color: #343642 !important;
+}
+p {
+  font-family: 'Noto Sans', sans-serif !important;
+    font-size: 18px;
+    color: #343642 !important;
+}
+a {
+  font-family: 'Noto Sans', sans-serif !important;
+}
+button {
+  font-family: 'Noto Sans', sans-serif !important;
+}
+.nav-item {
+    color: #343642;
+    font-size: 22px;
+}
+
+.nav-left .nav-item {
+      color: #343642 !important;   
+}
+.section {
+    background: #fff !important;
+}
+.contactForm {
+    margin: 0px auto;
+    width: 50%;
+}
+.card {
+    background-color: rgba(0, 0, 0, 0.02);
+}
+.title {
+    font-weight: 400 !important;
+}
+.subtitle {
+    font-weight: 400 !important;
+}
+.navButton {
+    height: auto !important;
+    line-height: normal !important;
+    color: #962D3E !important;
+}
+/*.button {
+    color: #962D3E !important;
+}*/
+.mainHome {
+    color: #276673 !important;
+}
+.mainHomeSub {
+    color: rgba(52, 136, 153, 0.95) !important;
+}
+label {
+  font-family: 'Noto Sans', sans-serif !important;
+  font-size: 20px;
+}
+
+.articleTitle {
+  font-weight: bold !important;
+  color: #42b078 !important;
+}
+
+.postContent h2 {
+  text-align: center;
+  color: rgb(68, 68, 68);
+  font-weight: bold !important;
+}
+
+.archivePost h1 {
+  font-weight: bold !important;
+}
+
+footer {
+  background: white !important;
+  height: 30px;
+  padding-top:20px !important;
+}
+
+.footIcon {
+  padding: 50px;
+}
+
+.largeButton {
+  font-size: 20px !important;
+  padding: 30px;
+}
+
+.largeHeight {
+  line-height: 30px;
+}
+@media (max-width: 600px) {
+  .largeHeight {
+    font-size: 20px !important;
+    line-height: 30px;
+  }
+  .largeButton {
+    font-size: 23px !important;
+    padding: 20px;
+  }
+}
+
+.headIcon {
+  padding-top: 10px;
+  padding-right: 35px;
+}
+
+.gray {
+  color: #756b6b !important;
+  font-size: 15px;
+  line-height: 25px;
+  font-weight: bold;
+}
+
+ul {
+  list-style: circle;
+}
+li {
+  font-family: 'Noto Sans' !important;
+  font-weight: normal;
+}
+
+.small {
+  font-size: 17px;
+}
+
+@media (min-width: 768px) {
+  .homeTitle {
+    color: #756b6b;
+    font-size: 95px;
+    font-weight: 700;
+    letter-spacing: -2px;
+    line-height: 1;
+    text-align: center;
+  }
+}
+
+@media (max-width: 768px) {
+  .homeTitle {
+    color: #756b6b;
+    font-size: 50px;
+    font-weight: 700;
+    letter-spacing: -1px;
+    line-height: 1;
+    text-align: center;
+  }
+}
+
+.homeTitle a:hover {
+  color: white !important;
+}
+
+@media (min-width: 768px) {
+  .homeHeading {
+    color: rgb(75, 68, 65);
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 0px;
+    line-height: 1.5;
+    text-align: center;
+  }
+}
+
+@media (max-width: 768px) {
+  .homeHeading {
+    color: rgb(75, 68, 65);
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 0px;
+    line-height: 1.5;
+    text-align: center;
+  }
+}
+
+.homeButton {
+  width: 70%;
+  background-color: transparent;
+  border: 1px solid gray;
+  color: rgb(75, 68, 65) !important;
+}
+
+.homeButton:hover {
+  color: #544545 !important;
+}
+
+.panel {
+  border-radius: 0px !important;
+}
+
+.panel-heading {
+  background: #7ab55c !important;
+  border-radius: 0px;
+  color: white !important;
+  margin-bottom: 0px !important;
+}
+
+.finalBlock {
+  background-color: #7ab55c !important;
+  color: white !important;
+}
+
+.finalBlock .button.is-link {
+  color: white !important;
+  margin-top: 0px;
+}
+
+.finalBlock .button.is-link:hover {
+  color: black !important;
+  margin-top: 0px;
+}
+
+.finalBlock .button:hover {
+  background: white;
+}
+
+.panel-block {
+  margin-bottom: 0px !important;
+  padding: 20px;
+}
+
+.webApp {
+  background: #b55c5c !important;
+}
+
+.card {
+  text-align:center !important;
+  -webkit-box-shadow: 0px 3px 26px -7px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 3px 26px -7px rgba(0,0,0,0.75);
+  box-shadow: 0px 3px 26px -7px rgba(0,0,0,0.75);
+}
+/*
+.nav-menu {
+  background: white !important;
+}*/
+
+.homeButton:hover {
+  background:#42b078 !important;
+  color: white !important;
+  width: 30% !important;
+}
+
+.hero.is-success .nav-toggle span {
+  background: black !important;
+}
+
+.greenRibbonText {
+  background: rgba(66, 176, 120, 0.95);
+  padding: 10px;
+}
+
+.greenRibbonText:hover {
+  background: rgba(66, 176, 120, 0.50);
+}
+
+.greenRibbonText a {
+  color: white !important;
+}
+
+.workNav {
+  border-bottom: 1px dotted #42b078;
+}
+
+b {
+  font-weight: bold !important;
+}
